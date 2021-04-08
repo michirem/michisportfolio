@@ -33,6 +33,8 @@
     stroke-width: 6;
   }
 
-  * {
-    border: black 0.5px solid;
+  @media all and (max-width: 320px) {
+    .mobilenav {
+      right: 0.8rem;
+    }
   }
