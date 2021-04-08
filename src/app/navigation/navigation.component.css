@@ -33,8 +33,6 @@
     stroke-width: 6;
   }
 
-  @media all and (max-width: 320px) {
-    .mobilenav {
-      right: 0.8rem;
-    }
+  svg:hover {
+    fill: rgba(30, 64, 175, var(--tw-bg-opacity));
   }
