@@ -7,6 +7,12 @@ module.exports = {
     },
     darkMode: 'class', // or 'media' or 'class'
     theme: {
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '30%': '150%'
+      } ,
       screens: {
         'xs': '480px',
         // => @media (min-width: 480px) { ... }
