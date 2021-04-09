@@ -44,7 +44,7 @@ main {
         margin-top: 5rem;
     }
     .hero {
-        background-position: 90% 120%;
+        background-position: 150% 120%;
         height: 40vh;
     }
 }
@@ -58,18 +58,18 @@ main {
 
 /* iPadPro */
 
-@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
+/* @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
     .hero {
-        background-position: 95% 50%;
+        background-position: 150% 50%;
         height: 50vh;
     }
-}
+} */
 
 /* Desktop  */
 
-/* @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .hero {
         background-position: 90% 120%;
         height: 70vh;
     }
-} */
+}
