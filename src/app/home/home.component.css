@@ -45,25 +45,30 @@ main {
 
 @media all and (min-width: 768px) {
     .hero {
-        background-position: 35% 50%;
+        background-position: 50% 50%;
         height: 70vh;
     }
 }
 
-/* iPadPro 
+/* iPad Pro */
 
-@media only screen and (min-width: 1024px) and (max-height: 1366px) {
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
     .hero {
-        background-position: 100% 50%;
-        height: 60vh;
+        background-position: 60% 50%;
+        height: 70vh;
     }
-} */
+}
 
 /* Desktop  */
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1025px) {
     .hero {
-        background-position: 25% 50%;
+        background-position: 30% 45%;
         height: 70vh;
     }
 }
