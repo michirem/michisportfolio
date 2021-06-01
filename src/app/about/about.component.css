@@ -43,11 +43,11 @@ main {
 
 @media all and (min-width: 768px) {
     main {
-        margin-top: 5rem;
+        margin-top: 1.5rem;
     }
     .hero {
-        background-position: 120% 120%;
-        height: 40vh;
+        background-position: 120% 80%;
+        height: 70vw;
         background-size: 550px;
     }
 }
@@ -76,9 +76,12 @@ main {
 /* Desktop  */
 
 @media only screen and (min-width: 1025px) {
+    main {
+        margin-top: 3rem;
+    }
     .hero {
-        background-position: 110% 50%;
-        height: 70vh;
+        background-position: 100% 50%;
+        height: 80vh;
         background-size: 800px;
     }
 }
