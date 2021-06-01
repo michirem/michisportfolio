@@ -36,3 +36,7 @@
   svg:hover {
     fill: rgba(30, 64, 175, var(--tw-bg-opacity));
   }
+
+  img {
+    height: 40px;
+  }
