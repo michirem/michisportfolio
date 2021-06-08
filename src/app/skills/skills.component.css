@@ -14,6 +14,13 @@ img {
     height: 60vh;
 }
 
+.skillimg {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* iphone 6/7/8 */
 
 @media all and (min-width: 320px) and (orientation: landscape) {
